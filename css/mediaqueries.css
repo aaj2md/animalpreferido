@@ -1,0 +1,86 @@
+/* media queries para adaptar diseño a pantallas mas pequeñas */
+
+/* punto de ruptura en 1000pixels */
+@media screen and (max-width:1000px){
+    /* mucho más que marisco */
+    .contenidoMuchoMas{
+        
+        background: rgba(250, 250, 250, 0.9);
+        margin:0;
+        
+     }
+     .contenidoMuchoMas.ancho60{
+       flex-basis: 100%;
+     }
+     /* zona caracteristicas */
+     .zonaCaracteristicas > div{
+        flex-basis:100% ;
+        margin-bottom: 15px;
+     }
+
+    /* nuestros procesos */
+    .nuestrosProcesos{
+        min-height: 330px;
+    }
+    .contenidoNuestrosProcesos.ancho48{
+        flex-basis: 100%;
+        margin-left: 15px;
+        margin-right: 15px;
+        text-align: center;
+    }
+    .zonaComprarAhora{
+        min-height: 175px;
+        align-content:space-evenly;
+    }
+    .zonaComprarAhora .ancho40{
+        flex-basis: 100%;
+        text-align: center;
+        
+    }
+   
+
+   
+}
+ /* fin mediaquerie */
+
+   /* punto de ruptura en 810pixels */
+@media screen and (max-width:810px) {
+    
+
+   /* menu navegacion */
+.navegacionPrincipal ul{
+    display: none;
+}
+.abrirMenu{
+    display: inline-block;
+}
+
+/* seccion sabor */
+.seccionSabor .ancho40, .seccionSabor .ancho60{
+    flex-basis: 100%;
+    text-align: center;
+}
+.seccionSabor figure{
+    order:-1;
+    text-align: center;
+}
+.seccionSabor figure img{
+    width: 240px;
+}
+/* mucho mas que marisco */
+.contenidoMuchoMas .ancho48{
+    flex-basis: 100%;
+    margin-bottom: 30px;
+}
+
+/* footer principal */
+
+.footerPrincipal ul.filaFlex{
+    display: block;
+}
+.footerPrincipal li{
+    border:none;
+    margin-bottom:10px;
+}
+
+}

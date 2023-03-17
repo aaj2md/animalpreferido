@@ -1,0 +1,4 @@
+user-agent: *
+disallow: /pruebas/
+Allow:/pruebas/user
+sitemap:https://ignacioaguado1.com/sitemap.xml

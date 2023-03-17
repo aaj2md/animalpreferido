@@ -1,0 +1,288 @@
+ /* Hoja de estilos principal de sitio web Huelvamar */
+
+ /* --------- ESTILOS GENERALES ----------- */
+ 
+ *{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+ }
+ 
+ body{
+    font-family: 'Hind Siliguri', sans-serif;
+ }
+
+ h1,h2,h3,h4{
+    font-weight: 400;
+ }
+
+ h2{
+   margin-bottom: 15px;
+   font-size: 1.7em;
+ }
+
+ p{
+    color:#505050;
+    font-size:1.2em;
+    line-height: 1.4em;
+ }
+
+ ul{
+    list-style-type: none;
+ }
+
+ address{
+    font-size: 0.9em;
+    font-style: normal;
+ }
+
+ .lineaHorizontal{
+    border-bottom: 1px solid #c1c1c1;
+ }
+
+ a{
+    text-decoration: none;
+ }
+
+ .boton{
+    display: inline-block;
+    margin-top: 30px;
+    padding: 8px 40px;
+    font-weight: 300;
+    font-size: 0.8em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+ }
+
+ .boton.gris{
+    color:#707070;
+    border:1px solid #707070;
+ }
+
+ .boton.blanco{
+    color:#FFF;
+    border:1px solid #FFF;
+ } 
+ 
+ .boton:hover{
+    background: #ff3d01;
+    color:#FFF;
+ }
+
+ .imagen100x100{
+   max-width: 100%;
+ }
+
+
+  /* --------- ESTILOS ESTRUCTURALES ----------- */
+ .filaFlex{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+ }
+
+.nowrap{
+   flex-wrap:nowrap;
+}
+
+ .ancho25{
+    flex-basis: 25%;
+ }
+
+ .ancho48{
+    flex-basis: 48%;
+ }
+
+ .ancho50{
+    flex-basis: 50%;
+ }
+
+ .ancho60{
+    flex-basis: 60%;
+ }
+
+ .ancho100{
+    flex-basis: 100%;
+ }
+
+   /* --------- HEADER PRINCIPAL Y NAVEGACIÓN ----------- */
+
+   .cabeceraPrincipal{
+        background: url('../imagenes/interiores-animal-bioparc-valencia-leon-03.jpg') center center / cover;
+   }
+   .abrirMenu{
+      width:20px;
+      display:none;
+
+   }
+
+   .navegacionPrincipal{
+        max-width: 1200px;
+        padding: 0 40px;
+        margin:0 auto;
+        min-height: 70px;
+        
+        align-items: center;
+   }
+
+   .navegacionPrincipal li:not(:last-child){
+        margin-right: 20px;
+   }
+
+
+   .navegacionPrincipal a{
+        color:rgba(90, 128, 0, 0.753);
+   }
+
+   .navegacionPrincipal a:hover{
+        color:#FFF;
+   }
+
+   .cabeceraPrincipal .lineaHorizontal{
+        border-color: rgba(255, 255, 255, 0.8);
+   }
+
+   .zonaInferiorHeader{
+        min-height: 300px;
+        padding: 0 40px;
+        color:rgba(255, 255, 255, 0.8);
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+   }
+
+   .zonaInferiorHeader p{
+        color:rgba(90, 128, 0, 0.753);
+   }
+
+      /* --------- SECCIÓN SABOR ----------- */
+
+    .seccionSabor{
+        max-width: 1200px;
+        margin:0 auto;
+        padding: 50px;
+    }
+
+/* SECTION MUCHO MAS */
+.seccionMuchoMas{
+   background: url("../imagenes/caja-langostinos.jpg") left top no-repeat,
+               #fafafa;
+}
+.seccionMuchoMas.filaFlex{
+   justify-content: flex-end;
+}
+  
+.contenidoMuchoMas{
+   margin-right: 60px;
+   padding: 30px 15px 15px;
+   background: rgba(250, 250, 250, 0.616);
+   text-align: center;
+}
+.contenidoMuchoMas .lineaHorizontal{
+   width:60%;
+   margin: 40px auto;
+}
+.seccionMuchoMas .icono{
+   width: 70px;
+}
+.seccionMuchoMas h3{
+   margin: 10px 0;
+   font-size: 1.5em;
+}
+.zonaCaracteristicas{
+   padding: 50px 0;
+   background: #efefef;
+}
+.zonaCaracteristicas .filaFlex{
+   justify-content: space-evenly;
+}
+.zonaCaracteristicas h4{
+   font-size: 1.3em;
+}
+.zonaCaracteristicas .icono{
+   flex-basis:20%;
+   margin-right: 10px;
+   text-align: right;
+}
+.zonaCaracteristicas .textoCaracteristicas{
+   flex-basis: 75%;
+}
+.zonaCaracteristicas >div{
+   justify-content: center;
+}
+/* SECCION NUESTROS PROCESOS */
+.nuestrosProcesos{
+   min-height: 500px;
+   background: url("../imagenes/fondo-nuestros-procesos.jpg") right bottom no-repeat;
+   align-items: center;
+}
+
+.contenidoNuestrosProcesos{
+   margin-left: 80px;
+   padding: 20px;
+   background: linear-gradient(90deg, #fff, rgba(255, 255, 255, 0.712));
+   border-radius: 25px;
+}
+/* ZONZ COMPRAR AHORA */
+.zonaComprarAhora{
+   background: #252628;
+   min-height: 200px;
+   justify-content: center;
+   align-items: center;
+   
+}
+
+.zonaComprarAhora > div:nth-child(2){
+   text-align: center;
+}
+.zonaComprarAhora .boton{
+   margin: 0;
+}
+.zonaComprarAhora h2, .zonaComprarAhora p{
+   color:#f4f4f4;
+}
+/* FOOTER PRINCIPAL */
+.footerPrincipal{
+   padding: 60px 0;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   background: #fafafa;
+
+}
+.footerSuperior{
+   margin-bottom: 30px;
+}
+.footerPrincipal address{
+   padding: 15px 0;
+   margin-top: 15px;
+   border-top:1px solid #c1c1c1;
+   border-bottom:1px solid #c1c1c1;
+}
+
+.footerPrincipal address .telefono{
+   margin-top: 15px;
+}
+.footerPrincipal address a:hover{
+   color:#00327a;
+}
+.footerPrincipal li{
+
+   padding:0 8px;
+   border-right: 1px solid #505050;
+}
+
+.footerPrincipal li:last-child{
+   border: none;
+}
+
+.footerPrincipal li a{
+   color:#505050;
+}
+.footerPrincipal li a:hover{
+   color:#000;
+}
+
+
