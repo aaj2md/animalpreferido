@@ -1,4 +1,4 @@
 user-agent: *
 disallow: /pruebas/
-Allow:/pruebas/user
+Allow:/arte-leon/
 sitemap:https://ignacioaguado1.com/sitemap.xml

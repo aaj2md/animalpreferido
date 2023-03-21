@@ -204,7 +204,7 @@ input[type="submit"]:hover{
 }
 .mensaje-error{
   display: inline-block;
-  padding: 5px 5px 5ps 15px;
+  padding: 5px 5px 5px 15px;
   margin-bottom: 5px;
   font-size: 0.8em;
   color: red;
