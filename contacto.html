@@ -2,8 +2,14 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Huelvamar, comprar langostino fresco de Huelva. Langostino fresco en tu casa.</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><!-- esto es para los dispositivos moviles -->
+    <title>Contacta con Cabarceno para solicitar cita previa.</title>
+    <meta name="description" content="Compra uno de los más elaborados langostinos frescos de Huelva. Procedente de las marimas naturales de bla bla bla">
+<!-- noindex hara que no se indexe esta pagina en google(no aparecera en la busqueda) -->
+   <!--  <meta name="robots" content="noindex"> --><!--  de esta manera no se indesaria -->
+   <!-- nofollow hara que ningun enlace de esta pagina sea rastreado por google no se seguiria ningun enlace -->
+   <!-- <meta name="robots" content="nofollow"> -->
+
 
     <!-- Link a fuentes de Google -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -13,8 +19,11 @@
     <!-- reseteo de navegadores -->
     <link rel="stylesheet" href="css/normalize.css">
 
-    <!-- Mis estilos css -->
-    <link rel="stylesheet" href="css/estilos.css">
+    <!-- Mis estilos css formulario -->
+    <link rel="stylesheet" href="css/estilos-formulario.css">
+
+     <!-- Mis estilos css -->
+     <link rel="stylesheet" href="css/estilos.css">
 
     <!-- mediaqueries -->
     <link rel="stylesheet" href="css/mediaqueries.css">
@@ -27,11 +36,11 @@
   gtag('js', new Date());
 
   gtag('config', 'G-Q3PRDSDTT1');
-  
 </script>
-    
+
 </head>
 <body>
+    <!-- <p style="position absolute; top:-2000px;">palabras clave</p> --><!-- esto ya no se hace es posible que google te penalize por hacer esto -->
      
     <!-- Cabecera principal -->
     <header class="cabeceraPrincipal">
@@ -39,7 +48,7 @@
         <nav class="navegacionPrincipal filaFlex">
             <!-- logo -->
             <a href="index.html">
-                <img src="imagenes/logo-huelvamar-blanco.png" alt="Ir al inicio">
+                <img src="imagenes/cabarcenos.png" alt="Ir al inicio">
             </a>
 
             <!-- boton menu movil -->
@@ -55,19 +64,12 @@
                 </li>
 
                 <li>
-                    <a href="langostino-vivo.html">Comprar langostino vivo</a>
+                    <a href="arte-leon.html">Arte en el léon</a>
                 </li>
 
+                
                 <li>
-                    <a href="#">Cómo procesamos los langostinos</a>
-                </li>
-
-                <li>
-                    <a href="#">Blog</a>
-                </li>
-
-                <li>
-                    <a href="contacto">Contacto</a>
+                    <a href="contacto.html">Contacto</a>
                 </li>
 
                 <li>
@@ -84,165 +86,135 @@
          <div class="lineaHorizontal"></div>
 
           <div class="zonaInferiorHeader">
-            <h1>Contacto langostino vivo</h1>
-            <p>Fresco, sostenible y recogido para ti</p>
+            <h1>El león  es un felino carnívoro de gran tamaño</h1>
+            <p>de nombre científico Panthera leo</p>
             <a class="boton blanco" href="#">Conócenos</a>
           </div>
     </header>
 
     <!-- Contenido principal -->
     <main>
-        <!-- Sección sabor fresco -->
-        <section class="seccionSabor filaFlex">
-
-            <!-- columna 1 -->
-            <div class="ancho60">
-                <h2>Llevamos el sabor más fresco del mar a tu hogar</h2>
-
-                <p> Huelvamar te ofrece el mejor langostino vivo a domicilio, seleccionado y envasado por nuestros expertos el mismo día que lo enviamos.</p>
-
-                <p>Desde Huelva, a tu mesa.</p>                        
-                
-                <a class="boton gris" href="#">COMPRAR AHORA</a>
-            </div>
-
-            <!-- columna 2 -->
-            <figure class="ancho48">
-                <img class="imagen100x100" src="imagenes/plato-langostinos.jpg" alt="Plato blanco con 7 langostinos cocinados">
-            </figure>
-        </section>
-
-        <!-- Mucho más que marisco -->
-        <section class="seccionMuchoMas filaFlex">
-            <div class="contenidoMuchoMas ancho60 filaFlex">
-                <!-- caja 0 -->
-                <header class="ancho100">
-                    <h2>Mucho más que marisco</h2>
-                    
-                    <p>Garantizamos la calidad y frescura de tu producto desde su cría hasta su recepción.</p>
-
-                    <div class="lineaHorizontal"></div>
-                </header>
-
-                <!-- caja1 -->
-                <div class="ancho48">
-                    <img class="icono" src="imagenes/icon-ancla.png" alt="">
-                    <h3>Tradición</h3>
-                    <p>Más de 15 años de tradición familiar acercando el sabor único de Huelva a cada rincón avalan nuestro buen hacer.</p>
-                </div>
-
-                <!-- caja2 -->
-                <div class="ancho48">
-                    <img class="icono" src="imagenes/icon-frescura.png" alt="">
-                    <h3>Frescura</h3>
-                    <p>Nuestro proceso de envasado garantiza la entrega del langostino vivo para que disfrutes de su máximo sabor.</p>
-                </div>
-
-                <!-- caja3 -->
-                <div class="ancho48">
-                    <img class="icono" src="imagenes/icon-dedicacion.png" alt="">
-                    <h3>Dedicación</h3>
-                    <p>Estamos especializados en un único producto. Criamos y te hacemos llegar el mejor langostino vivo.</p>
-                </div>
-
-                <!-- caja4 -->
-                <div class="ancho48">
-                    <img class="icono" src="imagenes/icon-sostenibilidad.png" alt="">
-                    <h3>Sostenibilidad</h3>
-                    <p>Nuestros procesos de cría selectiva evitan las redes de arrastre y otras técnicas invasivas habituales en la pesca extractiva. Velamos por el ecosistema marino.</p>
-                </div>
-
-            </div>
-
-            <!-- cierre de esta sección -->
-            <footer class="zonaCaracteristicas ancho100 filaFlex">
-                <!-- caja1 -->
-
-                <div class="ancho25 filaFlex nowrap">
-                    <div class="icono">
-                        <img class="icono" src="imagenes/icon-express.png" alt="">
-                    </div>
-                    
-                    <div class="textoCaracteristicas">
-                        <h4>Envío express gratuíto</h4>
-                        <p>Recibe tu langostino vivo a domicilio en menos de 48 horas o cuando tú elijas, sin gastos de envío.</p>
-                    </div>
-                </div>
-
+        <section >
+            <h2 class="margenes">Visitante por favor, si esta interesado mande la información que le gustaría publicar en nuestra página sobre vuestro animal favorito (anécdotas personales, información de interes...)</h2>
+            <ul class="info-practica">
+              <li>Todos los campos son obligatorios.</li>
+              <!-- <li>Observa el texto que acompaña a los campos para saber qué es lo que debes verificar.</li>
+              <li>Debes insertar mensajes personalizados de error que aparezcan en el propio HTML.</li> -->
+         
     
-                  <!-- caja2 -->
-                  <div class="ancho25 filaFlex nowrap">
-                    <div class="icono">
-                        <img class="icono" src="imagenes/icon-garantizado.png" alt="">
-                    </div>
-
-                    <div class="textoCaracteristicas">
-                        <h4>Frescura garantizada</h4>
-                        <p>Langostino capturado diariamente y llevado a tu mesa en avión y almacenado siempre refrigerado.</p>
-                    </div>
-                    
-                </div>
-    
-
-                <!-- caja3 -->
-                  <div class="ancho25 filaFlex nowrap">
-                    <div class="icono">
-                        <img class="icono" src="imagenes/icon-sostenible.png" alt="">
-                    </div>
-                    
-                    <div class="textoCaracteristicas">
-                        <h4>Cría y captura y sostenible</h4>
-                        <p>Nuestros métodos de cría y captura son sostenibles y respetuosos con el medio ambiente.</p>
-                    </div>
-                    
-                </div>
-            </footer>
-        </section>
+            </ul>
      
+            <!-- formulario de contacto-->
+           <form action="http://cgi.dominio.es/FormMail.pl"  method="post" name="form-contacto"  id="form-contacto" enctype="multipart/form-data" novalidate>
+           
+             <!-- campos ocultos-->
+             <input type="hidden" name="recipient" 
+                    value="consultas@dominio.es">  
+    
+             <input type="hidden" name="subject" 
+                    value="Solicitud de cliente"> 
+               
+             <input type="hidden" name="redirect" 
+                   value="http://www.dominio.es/envio-ok.html"> 
+            
+    
+             <!-- CAMPO NOMBRE  -->
+         <div class="campos">
+           <label for="dato-usuario">
+           <span class="asterisco">*</span>Nombre (de 2 a 15 caracteres):</label>
 
-        <!-- Nuestros procesos -->
-        <section class="nuestrosProcesos filaFlex">
-            <div class="contenidoNuestrosProcesos ancho48">
-                <h2>Nuestros procesos</h2>
-                <p>Nuestro sistema de cría, selección y entrega garantiza la calidad y las condiciones óptimas de tu marisco.
-                    Te invitamos a conocer cómo funciona nuestro servicio de venta de langostino vivo a domiclio.</p>
-                <a class="boton gris" href="#">CÓMO FUNCIONA</a>    
-            </div>
+           <input type="text" name="dato-usuario" id="dato-usuario" 
+           placeholder="Inserta tu nombre">
+           <span class="mensaje-error" id="msj-nombre">Escriba su nombre...</span>
+         </div>
+              
+            <!-- CAMPO EMAIL  -->
+            <div class="campos">
+               <label for="dato-email">
+               <span class="asterisco">*</span>Correo electrónico:</label>
+    
+               <input type="text" name="dato-email" id="dato-email" 
+               placeholder="Dinos tu correo electrónico">
+               <span class="mensaje-error" id="msj-email">Escriba su correo electrónico...</span>
+             </div> 
+             
+             <!-- CAMPO REPETICIÓN EMAIL  --> 
+             <div class="campos">
+               <label for="dato-emailrepetido">
+               <span class="asterisco">*</span>Repite tu correo electrónico:</label>
+    
+               <input type="text" name="dato-emailrepetido" id="dato-emailrepetido" 
+               placeholder="Repite tu correo electrónico">
+               <span class="mensaje-error" id="msj-emailrepetido">Repita su correo electrónico...</span>
+             </div> 
+             
+             <!-- CAMPO TELÉFONO  --> 
+              <div class="campos">
+               <label for="dato-telefono">
+               <span class="asterisco">*</span>Teléfono para recibir la llamada:</label>
+    
+               <input type="text" 
+               name="dato-telefono" 
+               id="dato-telefono" 
+               placeholder="Dinos tu teléfono de contacto">
+               <span class="mensaje-error" id="msj-telefono">Escriba su telefono...</span>
+             </div> 
+     
+             
+             
+             <!-- CAMPO CONSULTA  --> 
+             <div class="campos">
+               <label for="dato-consulta">
+                  <span class="asterisco" id="caja-recuento">*</span> Escriba aquí su consulta (máximo 1000 caracteres):
+               </label> <br>
+    
+               <textarea name="dato-consulta" id="dato-consulta" cols="30" rows="10" tabindex="0"  placeholder="Comparte tu información"></textarea>
+               <span class="mensaje-error" id="msj-consulta">Escriba cualquier consulta con un máximo de 100 caracteres...</span>
+             </div>
+             
+             <!-- CAMPO CLAUSULAS DE ENVÍO  --> 
+             <div class="campos"> 
+                <input type="checkbox" name="dato-clausulas" id="dato-clausulas" value="1">
+                <label for="dato-clausulas">
+                  <span class="asterisco" tabindex="0">*</span>Acepto la
+                </label>
+    
+                 <a href="#">Politica de privacidad</a> 
+                 <span class="mensaje-error" id="msj-clausulas">Acepte las clausulas...</span>
+             </div>
+    
+     
+             
+             
+             <!-- Botón de enviar formulario -->
+             <div class="campos">             
+                <input type="submit" value="Enviar formulario">
+             </div>
+           </form> <!-- FIN Formulario -->
+     
         </section>
-
-        <!-- Comprar ahora -->
-        <aside class="zonaComprarAhora filaFlex">
-            <!-- caja1 -->
-            <div class="ancho60">
-               <h2>Compra ahora tu caja de langostino vivo</h2>
-               <p> Y recíbela en tu casa con todas las garantías de calidad y frescura de Huelvamar</p>
-            </div>
-
-            <!-- caja2 -->
-            <div class="ancho40">
-                <a class="boton blanco" href="#">COMPRAR</a> 
-            </div>
-        </aside>
+    
+            
 
     </main>
 
     <!-- Cierre principal -->
     <footer class="footerPrincipal filaFlex">
        <div class="footerSuperior">
-        <img src="imagenes/logo-huelvamar-colores.png" alt="logotipo Huelvamar 2 dos colores">
+        <img src="imagenes/cabarcenos.png" alt="logotipo de Cabarcenos">
        </div>
 
         <address>
-            <p>Finca El Dique</p>
-            <p>21400, Ayamonte</p>
-            <p>Huelva</p>
+            <p>Cabarceno</p>
+            <p>21400, Obregon</p>
+            <p>Cantabria</p>
             <p class="telefono"><a href="tel:959104224">959 104 224</a></p>
-            <p><a href="mailto:langostinovivo@huelvamar.com">langostinovivo@huelvamar.com</a></p>
+            <p><a href="mailto:leon@cabarceno.com">leon@cabarceno.com</a></p>
         </address>
 
         <ul class="filaFlex">
             <li>
-                © Gambalucía, S.L.
+                © Cabarceno-leon, S.L.
             </li>
 
             <li>
@@ -262,5 +234,9 @@
             </li>
         </ul>
     </footer>
+   
+     
+
+     <script src="js/formulario.js"></script> 
 </body>
 </html>

@@ -284,5 +284,42 @@
 .footerPrincipal li a:hover{
    color:#000;
 }
+.margen{
+   margin-top:150px;
+}
+.margen-arriba{
+   margin:20px;
+}
+
+/* division columnas con grid */
+.container{
+	line-height: 1.5em;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-content: center;
+    grid-auto-rows: 300px;
+}
+.aulas{
+    background: url('../imagenes/cabarcenos.jpg') center center / cover;
+}
+.ideas{
+    background: url('../imagenes/leona\ y\ cachorro2.jpg') center center / cover;
+}
+.practicas{
+    background: url('../imagenes/leonesluchando.jpeg') center center / cover;
+}
+.metodologia{
+    background: url('../imagenes/kalahari.jpg') center center / cover;
+}
+/* alinear el texto a la derecha */
+.derecha{
+	text-align: right;
+
+}
+/* Dar margenes al texto que está a la izquierda y a la derecha de las imagenes */
+.margenes{
+	margin:20px 20px 20px 20px
+}
+
 
 
