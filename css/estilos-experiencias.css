@@ -1,4 +1,11 @@
 /* ----------ESTRUCTURA----------- */
+
+.anchoMaximo{
+	max-width: 1350px;
+	margin: 0 auto;
+	padding: 0 40px;
+}
+
 .flex{
     display: flex;
     justify-content: space-between;
@@ -19,7 +26,7 @@
     padding: 40px;
     background: url("../imagenes/fondo2.jpg") left center / cover;
 
-    color: #fff;
+    color: #23aa37;
     text-align: center;
 }
 
@@ -31,12 +38,12 @@
 /* zona roja y zona crema */
 
 .zona-roja, .zona-crema{
-    padding: 30px 15px;
+    padding: 50px;
     text-align: center;
 }
 
 .zona-roja h2, .zona-crema h2{
-    margin-bottom: 15px;
+    margin: 30px;
 }
 
 .zona-roja a{
@@ -44,23 +51,52 @@
     text-decoration: none;
 }
 
+.zona-roja p{
+    color: #ded6c0;
+    text-decoration: none;
+}
+
 
 
 .zona-crema a{
-    color: #2657e9;
+    color: #ffffff;
     text-decoration: none;
 }
 
 .zona-roja a:hover, .zona-crema a:hover{
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 .zona-roja{
-    background: #d03b40;
+    background: #54621c;
     color: #ded6c0;
 }
 
 .zona-crema{
-    background:  #ded6c0;
-    color:#d03b40;
+    background:  #bcba04;
+    color:#505050;
 }
+
+.foto1{
+    min-height: 300px;
+    flex-basis: 50%;
+    background: url('../imagenes/kalahari.jpg') center center / cover;
+
+}
+.foto2{
+    min-height: 300px;
+    flex-basis: 50%;
+    background: url('../imagenes/leonaycachorro.jpg') center center / cover;
+
+}
+
+.padreFlex1{
+    display: flex;
+    
+}
+
+.boton{
+    border: none;
+    
+}
+
