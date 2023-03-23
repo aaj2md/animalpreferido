@@ -1,0 +1,66 @@
+/* ----------ESTRUCTURA----------- */
+.flex{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.ancho50{
+    flex-basis: 50%;
+}
+
+.ancho100{
+    flex-basis: 100%;
+}
+
+/*  Desayunar  */
+
+.desayunar{
+    padding: 40px;
+    background: url("../imagenes/fondo2.jpg") left center / cover;
+
+    color: #fff;
+    text-align: center;
+}
+
+.desayunar h2{
+    line-height: 1.1em;
+    font-size: 3em;
+}
+
+/* zona roja y zona crema */
+
+.zona-roja, .zona-crema{
+    padding: 30px 15px;
+    text-align: center;
+}
+
+.zona-roja h2, .zona-crema h2{
+    margin-bottom: 15px;
+}
+
+.zona-roja a{
+    color: #ded6c0;
+    text-decoration: none;
+}
+
+
+
+.zona-crema a{
+    color: #2657e9;
+    text-decoration: none;
+}
+
+.zona-roja a:hover, .zona-crema a:hover{
+    text-decoration: underline;
+}
+
+.zona-roja{
+    background: #d03b40;
+    color: #ded6c0;
+}
+
+.zona-crema{
+    background:  #ded6c0;
+    color:#d03b40;
+}
