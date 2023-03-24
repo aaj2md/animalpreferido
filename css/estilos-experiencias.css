@@ -78,13 +78,13 @@
 }
 
 .foto1{
-    min-height: 300px;
+    min-height: 400px;
     flex-basis: 50%;
     background: url('../imagenes/kalahari.jpg') center center / cover;
 
 }
 .foto2{
-    min-height: 300px;
+    min-height: 400px;
     flex-basis: 50%;
     background: url('../imagenes/leonaycachorro.jpg') center center / cover;
 
@@ -101,6 +101,23 @@
 }
 
 .padding{
-    padding: 150px 5px;
+    padding: 80px 5px;
 }
 
+.exp{
+    margin-top: 20px;
+    margin: 15px;
+}
+
+.cabeceraPrincipal{
+    max-height: 222px;
+}
+
+.navegacionPrincipal a{
+    color: rgb(67, 211, 23);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: large;
+    background-color: #50505078;
+    padding: 5px;
+}
