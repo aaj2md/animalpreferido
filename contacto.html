@@ -128,7 +128,7 @@
            <span class="asterisco">*</span>Nombre (de 2 a 15 caracteres):</label>
 
            <input type="text" name="dato-usuario" id="dato-usuario" 
-           placeholder="Inserta tu nombre">
+           placeholder="Inserta tu nombre" required>
            <span class="mensaje-error" id="msj-nombre">Escriba su nombre...</span>
          </div>
               
@@ -138,7 +138,7 @@
                <span class="asterisco">*</span>Correo electrónico:</label>
     
                <input type="text" name="dato-email" id="dato-email" 
-               placeholder="Dinos tu correo electrónico">
+               placeholder="Dinos tu correo electrónico" required>
                <span class="mensaje-error" id="msj-email">Escriba su correo electrónico...</span>
              </div> 
              
@@ -148,7 +148,7 @@
                <span class="asterisco">*</span>Repite tu correo electrónico:</label>
     
                <input type="text" name="dato-emailrepetido" id="dato-emailrepetido" 
-               placeholder="Repite tu correo electrónico">
+               placeholder="Repite tu correo electrónico" required>
                <span class="mensaje-error" id="msj-emailrepetido">Repita su correo electrónico...</span>
              </div> 
              
@@ -160,7 +160,7 @@
                <input type="text" 
                name="dato-telefono" 
                id="dato-telefono" 
-               placeholder="Dinos tu teléfono de contacto">
+               placeholder="Dinos tu teléfono de contacto" required>
                <span class="mensaje-error" id="msj-telefono">Escriba su telefono...</span>
              </div> 
      
@@ -180,12 +180,12 @@
 
              <div class="campos">
                 <label for="archivo-user">Adjunta tu archivo.</label> <br>
-                <input type="file" name="archivo-usuario" id="archivo-user" multiple accept=".jpg,.png">
+                <input type="file" name="archivo-usuario" id="archivo-user" multiple accept=".jpg,.png" required>
             </div>
              
              <!-- CAMPO CLAUSULAS DE ENVÍO  --> 
              <div class="campos"> 
-                <input type="checkbox" name="dato-clausulas" id="dato-clausulas" value="1">
+                <input type="checkbox" name="dato-clausulas" id="dato-clausulas" value="1" required>
                 <label for="dato-clausulas">
                   <span class="asterisco" tabindex="0">*</span>Acepto la
                 </label>
